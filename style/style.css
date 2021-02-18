@@ -37,7 +37,7 @@ i{
 nav{
 background: #ffffff;
 width: 185px;
-height: 37rem;
+height: 40rem;
 position: absolute; /*necessária para o funcionamento*/
 left: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
 transition: left .5s;
@@ -52,6 +52,11 @@ nav a{
     margin-top: 2rem;
     
     height: 4rem;
+}
+#git{
+    margin-top: 15rem;
+    font-size: 0.8rem;
+    text-align: center;
 }
 .team{
     margin-left: 1rem;
