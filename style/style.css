@@ -28,10 +28,30 @@ i{
  color: #000000;
 
 }
-nav{
+/*nav{
     display: flex;
     visibility: hidden;
     position: absolute;
+}
+*/
+nav{
+background: #ffffff;
+width: 185px;
+height: 37rem;
+position: absolute; /*necessária para o funcionamento*/
+left: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
+transition: left .5s;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    margin-top: 2rem;
+    
+    height: 4rem;
 }
 .team{
     margin-left: 1rem;
@@ -67,6 +87,11 @@ span{
     color: #ffffff;
     font-size: 1.2rem;
     outline: 0;
+    cursor: pointer;
+    transition: 1s;
 
     
+}
+.button:hover{
+  background: #f5a645 ;
 }
