@@ -25,12 +25,12 @@ h1{
 i{
   font-size: 2rem;
  margin-left: 12rem;
- color: #766F68;
+ color: #000000;
 
 }
 nav{
     display: flex;
-    left: -100%;
+    visibility: hidden;
     position: absolute;
 }
 .team{
@@ -45,12 +45,12 @@ nav{
 .container{display: flex;
 flex-direction: column;}
 h2{
-    color: #766F68;
+    color: #000000;
     text-align: center;
     font-size: 2.4rem;
 }
 span{
-    color: #766F68;
+    color: #000000;
     text-align: center;
     font-size: 1.2rem;
     margin-top: 2rem;

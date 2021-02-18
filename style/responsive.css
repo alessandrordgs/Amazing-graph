@@ -1,0 +1,59 @@
+@media(min-width:768px){
+    body{
+        height: 0vh;
+        overflow-y:hidden;
+    }
+    main{
+        display: flex;
+        margin-left: 4rem;
+        
+    }
+    nav{
+        visibility: initial;
+        display: flex;
+        right: 2%;
+    }
+    nav a{
+        text-decoration: none;
+        color: #000000;
+        margin-left: 2rem;
+        font-size: 1.4rem;
+    }
+    i{
+        visibility: hidden;
+    }
+
+    .home-page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "texting image";
+       margin-top: 2rem;
+    }
+
+    .container{
+        grid-area: texting;
+        padding-top: 2rem;
+        margin-left: 2rem;
+        position:absolute;
+    }
+    .container h2{
+        font-size: 3.6rem;
+        text-align: left;
+        margin-left: 4rem;
+    }
+    .container span{
+        text-align: left;
+        padding-left: 4.3rem;
+        font-size: 1.5rem;
+    }
+    .team{
+        margin-top: 2rem;
+       margin-left: 35rem;
+    }
+    .team img{
+        width: 50rem;
+        height:30rem;      
+    }
+  
+
+}
