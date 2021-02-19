@@ -43,11 +43,13 @@
         
         grid-area: image;
        }
+
     .img-arrow img{
      width: 50rem;
-    height: 50rem;
+    height: 32rem;
     grid-area: texting;
-    padding-bottom: 16rem;
+    
     }
+    
 }
 

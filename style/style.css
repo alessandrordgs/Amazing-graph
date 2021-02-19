@@ -22,7 +22,7 @@ h1{
     font-weight: 800;
     color: #D2872C;
 }
-i{
+#bars{
   font-size: 2rem;
  margin-left: 12rem;
  color: #000000;
@@ -37,7 +37,7 @@ i{
 nav{
 background: #ffffff;
 width: 185px;
-height: 40rem;
+height: 50rem;
 position: absolute; /*necessária para o funcionamento*/
 left: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
 transition: left .5s;
@@ -57,6 +57,9 @@ nav a{
     margin-top: 15rem;
     font-size: 0.8rem;
     text-align: center;
+}
+#git2{
+    visibility: hidden;
 }
 .team{
     margin-left: 1rem;

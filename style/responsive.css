@@ -1,32 +1,58 @@
 @media(min-width:768px){
     body{
         height: 0vh;
-        overflow-y:hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     main{
         display: flex;
         margin-left: 4rem;
         
     }
-    nav{
-        visibility: initial;
+    nav {
+        width: 30rem;
+
         display: flex;
-        right: 2%;
+        flex-direction: row;
+        position: initial;
+        height: 3rem;
+        margin-left: 30rem;
+        box-shadow: 0px 0px 0px 0px;
+        
     }
+    #git{
+        margin: 0;
+        visibility: hidden;
+    }
+    #git2{
+        visibility: initial;
+        margin-top: 10rem;
+        text-decoration: none;
+        color: #000000;
+        font-weight: 700;
+        font-size: 0.8rem;
+        
+    }
+    footer{grid-area: footer   ;
+    margin-left: 600px;}
     nav a{
         text-decoration: none;
         color: #000000;
         margin-left: 2rem;
         font-size: 1.4rem;
+        width: 6rem;
     }
-    i{
+    #bars{
         visibility: hidden;
     }
 
     .home-page{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: "texting image";
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "texting image"
+        "footer footer";
        margin-top: 2rem;
     }
 
@@ -49,6 +75,7 @@
     .team{
         margin-top: 2rem;
        margin-left: 35rem;
+       grid-area: image;
     }
     .team img{
         width: 50rem;
