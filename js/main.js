@@ -9,3 +9,8 @@ var trigger = document.getElementById('bars').addEventListener("click",function(
     veri = 1;
   }
 })
+
+var wpp = document.getElementById('enviar').addEventListener("click", function(){
+  var site = "https://api.whatsapp.com/send?phone=5596991910012&text="
+  window.location.href= site
+})
