@@ -11,6 +11,7 @@ var trigger = document.getElementById('bars').addEventListener("click",function(
 })
 
 var wpp = document.getElementById('enviar').addEventListener("click", function(){
-  var site = "https://api.whatsapp.com/send?phone=5596991910012&text="
+  var text = "Oi, gostaria de um orçamento "
+  var site = "https://api.whatsapp.com/send?phone=5596991910012&text=" + text
   window.location.href= site
 })
