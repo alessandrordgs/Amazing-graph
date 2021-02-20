@@ -10,7 +10,7 @@
         
     }
     nav {
-        width: 30rem;
+        width: 40rem;
 
         display: flex;
         flex-direction: row;
@@ -23,6 +23,10 @@
     #git{
         margin: 0;
         visibility: hidden;
+    }
+    #git1{
+        visibility: hidden;
+        margin: 0;
     }
     #git2{
         visibility: initial;
