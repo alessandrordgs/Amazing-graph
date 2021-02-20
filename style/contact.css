@@ -3,9 +3,10 @@
     margin-top: 3rem;
     text-align: center;
     margin-left: 1rem;
+    
 }
 .rede{
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 5rem;
     background-color: #f5a645;
     width: 15rem;
@@ -25,4 +26,29 @@
 }
 .rede i{
     font-size: 2rem;
+}
+.container-contact img{
+    width: 15rem;
+    margin-left: 5rem;
+}
+@media(min-width:768px){
+    .container-contact{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-areas: "texting image";
+        column-gap: 0px;
+        margin-left:2rem;
+    }
+    .rede{
+        grid-area: texting;
+        margin-top: 3rem;
+        margin-left: 10rem;
+    }
+  
+    .container-contact img{
+        grid-area: image;
+        width: 35rem ;
+        height: 30rem;
+    }
+    
 }
