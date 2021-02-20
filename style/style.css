@@ -61,6 +61,10 @@ nav a:hover{
     font-size: 0.8rem;
     text-align: center;
 }
+#git1{
+    margin: 0;
+    font-size: 0.8rem;
+}
 #git2{
     visibility: hidden;
 }
