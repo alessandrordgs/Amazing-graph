@@ -1,0 +1,28 @@
+#contact{
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.rede{
+    margin-top: 4rem;
+    margin-left: 6rem;
+    background-color: #D2872C;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 1rem;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.rede:hover{
+    background-color: #f5a645;
+}
+.rede a{
+    text-decoration: none;
+    color: #000000;
+}
+.rede i{
+    font-size: 2rem;
+}
